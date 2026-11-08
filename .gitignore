@@ -1,0 +1,37 @@
+# Local credentials and authentication files
+auth
+.env
+.env.*
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+big-data-2-env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter and interactive tooling
+.ipynb_checkpoints/
+
+# Hadoop, Spark, and course-generated output
+clusterCenters.txt
+spark-warehouse/
+metastore_db/
+*.log
+
+# Database and container-local state
+postgres_data/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
